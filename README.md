@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+__pycache__
+这两个文件夹是自动生成的
+
+datasets这个文件夹下放置通过官方下载的CIFAR-10数据集，官方给出的并不是图片和标签的形式，需要进一步处理，
+可以通过这个网站https://www.cs.toronto.edu/~kriz/cifar.html下载，下载后解压，就可以通过调用
+cifar_10.ipynb这个代码来进行处理，最后得到训练集和测试集图片，已经对应标签的csv文件
+
+imageclassification这个文件夹放置了datasets经过处理后的CIFAR-10的测试集和训练集图片，运行cifar_10.ipynb后可以自行将图片
+拷贝到这个文件夹下的temp文件夹下
